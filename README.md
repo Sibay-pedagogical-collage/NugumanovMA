@@ -1,6 +1,6 @@
-<h3>2 курс - верстка 1 - </h3><br>
-<h3>2 курс - верстка 2 - </h3><br>
-<h3>2 курс - верстка 3 - </h3><br>
-<h3>2 курс - верстка 4 - </h3><br>
-<h3>2 курс - верстка 5 - </h3><br>
-<h3>3 курс - верстка 6 - https://sibay-pedagogical-collage.github.io/NugumanovMA/3_%D0%9A%D1%83%D1%80%D1%81/%D0%B2%D0%B5%D1%80%D1%81%D0%BA%D0%B0-6/</h3>
+<h3>2 курс - верстка 1 - <a>https://sibay-pedagogical-collage.github.io/NugumanovMA/2_%D0%9A%D1%83%D1%80%D1%81/%D0%92%D0%B5%D1%80%D1%81%D1%82%D0%BA%D0%B0%201/</a></h3><br>
+<h3>2 курс - верстка 2 - <a>https://sibay-pedagogical-collage.github.io/NugumanovMA/2_%D0%9A%D1%83%D1%80%D1%81/%D0%92%D0%B5%D1%80%D1%81%D1%82%D0%BA%D0%B0%202/</a></h3><br>
+<h3>2 курс - верстка 3 - <a>https://sibay-pedagogical-collage.github.io/NugumanovMA/2_%D0%9A%D1%83%D1%80%D1%81/%D0%92%D0%B5%D1%80%D1%81%D1%82%D0%BA%D0%B0%203/</a></h3><br>
+<h3>2 курс - верстка 4 - <a>https://sibay-pedagogical-collage.github.io/NugumanovMA/2_%D0%9A%D1%83%D1%80%D1%81/%D0%92%D0%B5%D1%80%D1%81%D1%82%D0%BA%D0%B0%204/</a></h3><br>
+<h3>2 курс - верстка 5 - <a>https://sibay-pedagogical-collage.github.io/NugumanovMA/2_%D0%9A%D1%83%D1%80%D1%81/%D0%92%D0%B5%D1%80%D1%81%D1%82%D0%BA%D0%B0%205/</a></h3><br>
+<h3>3 курс - верстка 6 - <a>https://sibay-pedagogical-collage.github.io/NugumanovMA/3_%D0%9A%D1%83%D1%80%D1%81/%D0%B2%D0%B5%D1%80%D1%81%D0%BA%D0%B0-6/</a></h3>

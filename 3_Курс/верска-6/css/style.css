@@ -1,0 +1,511 @@
+body{
+  background-color: #b5d8b3;
+  color: #000;
+  min-width: 320px;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+h1 {
+  background-color: #fff;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 90px;
+}
+a:hover {
+  background-color: #222;
+  color: #fff;
+}
+  .stardos-stencil-regular {
+      font-family: "Stardos Stencil", serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+  
+  .stardos-stencil-bold {
+    font-family: "Stardos Stencil", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .source-code-pro {
+    font-family: "Source Code Pro", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  .container-1 {
+    width: 100%;
+    height: 180px;
+    background-color: #ffffff;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+    header .navbar {
+      margin-bottom: 0px;
+    }
+    .row-1 {
+      padding-top: 70px;
+    }
+    .menu-1 {
+      display: block;
+      width: 110px;
+    }
+      .menu-1-li {
+        display: inline-block;
+        margin-right: 20px;
+        width: 120px;
+        color: #000000;
+      }
+      .navbar-default .navbar-nav > li > a {
+        color: #000000;
+        padding: 5px;
+        margin-top: 20px;
+      }
+      .navbar-default .navbar-nav > li > a:hover {
+        color: #ff8c00;
+        text-decoration: underline chartreuse;
+      }
+  .container-2 {
+    background-image: url(../img/image-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 824px;
+  }
+    .container-2:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 824px;
+      background-image: url(../img/Rectangle.png);
+    }
+    .container-2 h1 {
+      background-color: #fff;
+      height: 114px;
+      width: 483px;
+      padding-left: 15px;
+      padding-top: 15px;
+      font-size: 90px;
+      margin-top: 83px;
+    }
+    .container-2 h2 {
+      color: #fff;
+      font-size: 55px;
+      width: 450px;
+      margin-top: 40px;
+    }
+    .container-2 h3 {
+      margin-top: 40px;
+      width: 670px;
+    }
+    .container-2 a {
+      margin-top: 40px;
+      color: #fff;
+      background-color: #000;
+      border: none;
+      border-radius: 10px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+      .container-2 a:hover {
+        background-color: #222;
+        color: #fff;
+      }
+  .container-3 {
+    height: 976px;
+  }
+    .img-1 {
+      position: absolute;
+      margin-top: 40px;
+      margin-left: -13%;
+      height: 640px;
+    }
+    .img-2 {
+      position: absolute;
+      margin-top: 570px;
+      margin-left: 12%;
+      height: 410px;
+    }
+    .container-3 h1 {
+      background-color: #fff;
+      margin-left: 800px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      font-size: 70px;
+      margin-top: 150px;
+      width: 350px;
+      position:static;
+    }
+    .container-3 h3 {
+      margin-top: 40px;
+      margin-left: 590px;
+      width: 590px;
+    }
+    .container-3 a {
+      margin-top: 60px;
+      margin-left: 900px;
+      color: #fff;
+      background-color: #000;
+      border: none;
+      border-radius: 10px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 80px;
+      padding-right: 80px;
+      font-size: 20px;
+    }
+      .container-3 a:hover {
+        background-color: #222;
+        color: #fff;
+      }
+  .container-4 {
+    height: 950px;
+  }
+    .container-4 h1 {
+        padding-left: 15px;
+        padding-top: 15px;
+        font-size: 70px;
+        margin-top: 270px;
+        width: 450px;
+    }
+    .container-4 h3 {
+      margin-top: 60px;
+    }
+    .container-4 a {
+      color: #fff;
+      background-color: #000;
+      border: none;
+      border-radius: 10px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 80px;
+      padding-right: 80px;
+      font-size: 20px;
+      margin-top: 40px;
+      margin-left: 40px;
+    }
+      .container-4 a:hover {
+        background-color: #222;
+        color: #fff;
+      }
+    .image-4-div {
+      margin-top: 40px;
+      width: 860px;
+    }
+    .image-4 {
+      position: absolute;
+      margin-top: 40px;
+      width: 860px;
+      height: 860px;
+    }
+    .container-4 h2 {
+      color: #fff;
+      position: absolute;
+      background-color: #b5d8b3;
+      margin-top: 580px;
+      margin-left: 225px;
+      height: 180px;
+      width: 350px;
+      padding-top: 40px;
+      padding-left: 50px;
+      font-size: 40px;
+    }
+  .container-5 {
+    height: 1080px;
+  }
+    .container-5-h3-1 {
+      font-weight: bold;
+      margin-top: 50px;
+    }
+    .carousel-1-1 {
+      margin-top: 50px;
+    }
+  .container-6 {
+    height: 650px;
+  }
+    .container-6 iframe {
+      width:640px;
+      height:490px; 
+    }
+    .container-6 h1 {
+      margin-top: 40px;
+      margin-left: 100px;
+      font-size: 40px;
+      width: 235px;
+    }
+    .container-6 h3 {
+      margin-top: 40px;
+    } 
+  .container-7 {
+    height: 1000px;
+  }
+    .container-7 h1 {
+      margin-left: 450px;
+      font-size: 50px;
+      width: 250px;
+      padding-left: 50px;
+    }
+    .container-7 h3 {
+      margin-top: 40px;
+      margin-left: 100px;
+      font-size: 25px;
+      width: 1000px;
+      margin-bottom: 40px;
+    }
+    .container-7 a {
+      background-color: #ffffffaa;
+      padding: 20px;
+      position: relative;
+      margin-top: -60px;
+      margin-left: 40px;
+      border: none;
+    }
+     .container-7 a:hover {
+      border: none;
+    }
+    .container-7 p {
+      color: #fff;
+      width: 230px;
+      border-radius: 10px;
+      background-color: #000;
+      height: 70px;
+      padding-top: 20px;
+      font-size: 25px;
+    }
+    .container-7 .col-md-4 h3 {
+      margin-top: 40px;
+      margin-left: 20px;
+      font-size: 25px;
+      width: 350px;
+      margin-bottom: 40px;
+    }
+  .container-8 {
+    height: 830px;
+  }
+    .container-8 h1 {
+      font-size: 60px;
+      width: 170px;
+    }
+    .container-8 .col-md-12 h3 {
+      margin-top: 40px;
+      margin-bottom: 60px;
+    }
+    .blog-info {
+      background-color: #fff;
+      position: relative;
+      padding: 20px;
+      margin-top: -160px;
+      margin-left: 20px;
+      width: 90%;      
+    }
+      .blog-info h3 {
+        font-size: 22px;
+      }
+      .blog-info h3:last-child {
+        font-weight: bold;
+        padding-top: 40px;
+      }
+  .container-9 {
+    height: 880px;
+  }
+    .container-9 iframe {
+      margin-top: 270px;
+      width:100%;
+      height:500px;
+    }
+    .container-9 h1 {
+      background-color: #fff;
+      font-size: 50px;
+      margin-top: 180px;
+      margin-left: 40%;
+      margin-bottom: 80px;
+      width: 300px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .container-9 form {
+      height: 500px;
+    }
+      .form-inline .form-control {
+        width: 125%;
+        margin-bottom: 35px;
+      }
+      .container-9 form button {
+        background-color: #000;
+        color: #fff;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 12px;
+        border: none;
+        border-radius: 10px;
+      }
+        .container-9 form button:hover {
+          background-color: #222;
+          border: none;
+          color: #fff;
+        }
+  .container-10 {
+    height: 640px;
+    border: #fff solid 50px;
+  }
+    .container-10
+
+
+
+
+
+    .carousel-showmanymoveone .carousel-control {
+      width: 4%;
+      background-image: none;
+   }
+   
+   .carousel-showmanymoveone .carousel-control.left {
+      margin-left: 0;
+   }
+   
+   .carousel-showmanymoveone .carousel-control.right {
+      margin-right: 0;
+   }
+   
+   .carousel-showmanymoveone .cloneditem-1,
+   .carousel-showmanymoveone .cloneditem-2,
+   .carousel-showmanymoveone .cloneditem-3 {
+      display: none;
+   }
+   
+   .carousel .item .col-xs-12 {
+      padding: 0;
+   }
+   
+   
+   /* Medium Devices, Desktops */
+   
+   @media only screen and (max-width: 992px) {
+      .carousel .item .col-xs-12:nth-last-child(-n+2) {
+         display: none;
+      }
+   }
+   
+   @media all and (min-width: 768px) {
+      .carousel-showmanymoveone .carousel-inner > .active.left,
+      .carousel-showmanymoveone .carousel-inner > .prev {
+         left: -50%;
+      }
+      .carousel-showmanymoveone .carousel-inner > .active.right,
+      .carousel-showmanymoveone .carousel-inner > .next {
+         left: 50%;
+      }
+      .carousel-showmanymoveone .carousel-inner > .left,
+      .carousel-showmanymoveone .carousel-inner > .prev.right,
+      .carousel-showmanymoveone .carousel-inner > .active {
+         left: 0;
+      }
+      .carousel-showmanymoveone .carousel-inner .cloneditem-1 {
+         display: block;
+      }
+   }
+   
+   @media all and (min-width: 768px) and (transform-3d),
+   all and (min-width: 768px) and (-webkit-transform-3d) {
+      .carousel-showmanymoveone .carousel-inner > .item.active.right,
+      .carousel-showmanymoveone .carousel-inner > .item.next {
+         -webkit-transform: translate3d(50%, 0, 0);
+         transform: translate3d(50%, 0, 0);
+         left: 0;
+      }
+      .carousel-showmanymoveone .carousel-inner > .item.active.left,
+      .carousel-showmanymoveone .carousel-inner > .item.prev {
+         -webkit-transform: translate3d(-50%, 0, 0);
+         transform: translate3d(-50%, 0, 0);
+         left: 0;
+      }
+      .carousel-showmanymoveone .carousel-inner > .item.left,
+      .carousel-showmanymoveone .carousel-inner > .item.prev.right,
+      .carousel-showmanymoveone .carousel-inner > .item.active {
+         -webkit-transform: translate3d(0, 0, 0);
+         transform: translate3d(0, 0, 0);
+         left: 0;
+      }
+   }
+   
+   @media all and (min-width: 992px) {
+      .carousel-showmanymoveone .carousel-inner > .active.left,
+      .carousel-showmanymoveone .carousel-inner > .prev {
+         left: -16.6%;
+      }
+      .carousel-showmanymoveone .carousel-inner > .active.right,
+      .carousel-showmanymoveone .carousel-inner > .next {
+         left: 16.6%;
+      }
+      .carousel-showmanymoveone .carousel-inner > .left,
+      .carousel-showmanymoveone .carousel-inner > .prev.right,
+      .carousel-showmanymoveone .carousel-inner > .active {
+         left: 0;
+      }
+      .carousel-showmanymoveone .carousel-inner .cloneditem-2,
+      .carousel-showmanymoveone .carousel-inner .cloneditem-3 {
+         display: block;
+      }
+   }
+   
+   @media all and (min-width: 992px) and (transform-3d),
+   all and (min-width: 992px) and (-webkit-transform-3d) {
+      .carousel-showmanymoveone .carousel-inner > .item.active.right,
+      .carousel-showmanymoveone .carousel-inner > .item.next {
+         -webkit-transform: translate3d(33.3%, 0, 0);
+         transform: translate3d(33.3%, 0, 0);
+         left: 0;
+      }
+      .carousel-showmanymoveone .carousel-inner > .item.active.left,
+      .carousel-showmanymoveone .carousel-inner > .item.prev {
+         -webkit-transform: translate3d(-33.3%, 0, 0);
+         transform: translate3d(-33.3%, 0, 0);
+         left: 0;
+      }
+      .carousel-showmanymoveone .carousel-inner > .item.left,
+      .carousel-showmanymoveone .carousel-inner > .item.prev.right,
+      .carousel-showmanymoveone .carousel-inner > .item.active {
+         -webkit-transform: translate3d(0, 0, 0);
+         transform: translate3d(0, 0, 0);
+         left: 0;
+      }
+   }
+   .carousel-control {
+      padding-top:200px;
+      font-size: 15px;
+      color: #000;
+      height: 401px;
+      max-width: 300px;
+      /* padding: 4px; */
+      text-shadow:none;
+      opacity:initial;
+   }
+    .carousel-control:hover {
+      background-color: #ff8c0077;
+    }
+    .carousel-control.left {
+      background-color: #008000;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 100%;
+      height: 401px;
+      transform: rotate(180deg);
+    }
+    .carousel-control.right {
+      background-color: #008000;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 100%;
+      height: 401px;
+    }
+  .carousel-indicators {
+    margin-top: 100px;
+  }

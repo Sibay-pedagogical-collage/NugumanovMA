@@ -239,6 +239,30 @@ h2, h3, h4, h5, h6 {
           background-color: #222;
           color: #fff;
         }
+      .container-3 .img-3 {
+        position: absolute;
+        margin-top: -1000px;
+        margin-left: 1300px;
+        height: 250px;
+        width: 500px;
+        z-index: -1;
+      }
+      .container-3 .img-4 {
+        position: absolute;
+        margin-top: -25px;
+        margin-left: -80px;
+        height: 328px;
+        width: 400px;
+        z-index: 1;
+      }
+      .container-3 .img-5 {
+        position: absolute;
+        margin-top: 75px;
+        margin-left: 1150px;
+        height: 250px;
+        width: 400px;
+        z-index: 1;
+      }
   .container-4 {
     height: 1200px;
   }
@@ -302,6 +326,15 @@ h2, h3, h4, h5, h6 {
         padding-top: 50px;
         font-size: 60px;
         text-align: center;
+      }
+      .container-4-1 {
+        position: absolute;
+        width: 1791px;
+        height: 1002px;
+        z-index: 1;
+        margin-top: -715px;
+        margin-left: -100px;
+        border: solid 28px #fff;
       }
   .container-5 {
     height: 1381px;

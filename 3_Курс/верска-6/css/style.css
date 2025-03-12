@@ -344,129 +344,187 @@ h2, h3, h4, h5, h6 {
   .container-6 {
     height: 870px;
   }
-    .container-6 iframe {
-      width:640px;
-      height:490px; 
+    .container-6 .row {
+      margin: 0px;
+      padding: 0px;
     }
-    .container-6 h1 {
-      margin-top: 40px;
-      margin-left: 100px;
-      font-size: 40px;
-      width: 235px;
-    }
-    .container-6 h3 {
-      margin-top: 40px;
-    } 
+      .container-6 iframe {
+        margin-top: 175px;
+        margin-left: -15px;
+        width: 100%;
+        height: 650px; 
+      }
+      .container-6 h1 {
+        margin-top: 220px;
+        margin-left: 162px;
+        font-size: 70px;
+        width: 465px;
+        height: 116px;
+        text-align: center;
+        padding-top: 25px;
+      }
+      .container-6 h3 {
+        margin-top: 58px;
+        width: 530px;
+        float: right;
+        font-size: 30px;
+        text-align: right;
+      } 
   .container-7 {
     height: 1386px;
   }
-    .container-7 h1 {
-      margin-left: 450px;
-      font-size: 50px;
-      width: 250px;
-      padding-left: 50px;
+    .container-7 .row {
+      margin: 0px;
+      padding: 0px;
     }
-    .container-7 h3 {
-      margin-top: 40px;
-      margin-left: 100px;
-      font-size: 25px;
-      width: 1000px;
-      margin-bottom: 40px;
-    }
-    .container-7 a {
-      background-color: #ffffffaa;
-      padding: 20px;
-      position: relative;
-      margin-top: -60px;
-      margin-left: 40px;
-      border: none;
-    }
-     .container-7 a:hover {
-      border: none;
-    }
-    .container-7 p {
-      color: #fff;
-      width: 230px;
-      border-radius: 10px;
-      background-color: #000;
-      height: 70px;
-      padding-top: 20px;
-      font-size: 25px;
-    }
-    .container-7 .col-md-4 h3 {
-      margin-top: 40px;
-      margin-left: 20px;
-      font-size: 25px;
-      width: 350px;
-      margin-bottom: 40px;
-    }
+      .container-7 h1 {
+        margin-top: 165px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0px;
+        font-size: 80px;
+        width: 310px;
+        height: 120px;
+        padding-top: 25px;
+        text-align: center;
+      }
+      .container-7 h3 {
+        margin-top: 57px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 32px;
+        margin-bottom: 89px;
+        text-align: center;
+      }
+      .container-7 img {
+        width: 486px;
+        height: 550px;
+      }
+      .container-7 a {
+        background-color: #ffffffaa;
+        padding: 44px;
+        position: relative;
+        margin-top: -70px;
+        margin-left: 40px;
+        border: none;
+        height: 186px;
+        width: 412px;
+      }
+        .container-7 a:hover {
+          border: none;
+        }
+        .container-7 p {
+          color: #fff;
+          width: 100%;
+          height: 100%;
+          border-radius: 10px;
+          background-color: #000;
+          padding-top: 25px;
+          font-size: 30px;
+          text-align: center;
+        }
+      .container-7 .col-md-4 h3 {
+        margin-top: 32px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0px;
+        font-size: 30px;
+        width: 420px;
+      }
   .container-8 {
     height: 1106px;
   }
-    .container-8 h1 {
-      font-size: 60px;
-      width: 170px;
+    .container-8 .row {
+      margin: 0px;
+      padding: 0px;
     }
-    .container-8 .col-md-12 h3 {
-      margin-top: 40px;
-      margin-bottom: 60px;
-    }
-    .blog-info {
-      background-color: #fff;
-      position: relative;
-      padding: 20px;
-      margin-top: -160px;
-      margin-left: 20px;
-      width: 90%;      
-    }
-      .blog-info h3 {
-        font-size: 22px;
+      .container-8 h1 {
+        margin-top: 96px;
+        margin-bottom: 0px;
+        font-size: 70px;
+        width: 310px;
+        height: 116px;
+        text-align: center;
+        padding-top: 25px;
       }
-      .blog-info h3:last-child {
-        font-weight: bold;
-        padding-top: 40px;
+      .container-8 .col-md-12 h3 {
+        margin-top: 57px;
+        margin-bottom: 89px;
+        width: 1200px;
+        font-size: 30px;
       }
+      .container-8 img {
+        width: 485px;
+        height: 552px;
+      }
+      .blog-info {
+        background-color: #fff;
+        position: relative;
+        padding: 38px;
+        margin-top: -200px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 429px;
+        height: 314px;
+      }
+        .blog-info h3 {
+          font-size: 22px;
+          padding-top: 0px;
+          margin-top: 0px;
+        }
+        .blog-info h3:last-child {
+          font-weight: bold;
+          padding-top: 73px;
+        }
   .container-9 {
     height: 1228px;
   }
-    .container-9 iframe {
-      margin-top: 270px;
-      width:100%;
-      height:500px;
+    .container-9 .row {
+      margin: 0px;
+      padding: 0px;
     }
-    .container-9 h1 {
-      background-color: #fff;
-      font-size: 50px;
-      margin-top: 180px;
-      margin-left: 40%;
-      margin-bottom: 80px;
-      width: 300px;
-      padding-left: 20px;
-      padding-right: 20px;
-    }
-    .container-9 form {
-      height: 500px;
-    }
-      .form-inline .form-control {
-        width: 125%;
-        margin-bottom: 35px;
+      .container-9 iframe {
+        margin-top: 366px;
+        width: 750px;
+        height: 750px;
+        margin-left: auto;
+        margin-right: auto;
       }
-      .container-9 form button {
-        background-color: #000;
-        color: #fff;
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        font-size: 12px;
-        border: none;
-        border-radius: 10px;
+      .container-9 h1 {
+        font-size: 70px;
+        margin-top: 237px;
+        margin-left: 157px;
+        margin-bottom: 0px;
+        width: 466px;
+        height: 116px;
+        text-align: center;
+        padding-top: 25px;
       }
-        .container-9 form button:hover {
-          background-color: #222;
-          border: none;
-          color: #fff;
+      .container-9 .form-inline {
+        width: 100%;
+        margin-top: 133px;
+      }
+        .form-inline .form-control {
+          width: 100%;
+          margin-bottom: 33px;
+          border: solid 5px #dfdfdf;
+          font-size: 20px;
         }
+        .container-9 form button {
+          background-color: #000;
+          color: #fff;
+          margin-top: 44px;
+          height: 100px;
+          width: 320px;
+          font-size: 25px;
+          border: none;
+          border-radius: 10px;
+        }
+          .container-9 form button:hover {
+            background-color: #222;
+            border: none;
+            color: #fff;
+          }
   .container-10 {
     height: 854px;
     border: #fff solid 50px;

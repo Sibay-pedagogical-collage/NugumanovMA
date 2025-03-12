@@ -26,6 +26,9 @@ header {
   width: 1600px;
   background-position: center center;
 }
+h2, h3, h4, h5, h6 {
+  margin-bottom: 0px;
+}
 .stardos-stencil-regular {
   font-family: "Stardos Stencil", serif;
   font-weight: 400;
@@ -178,111 +181,163 @@ header {
   .container-3 {
     height: 1301px;
   }
-    .img-1 {
-      position: absolute;
-      margin-top: 40px;
-      margin-left: -13%;
-      height: 640px;
+    .container-3 .row {
+      margin: 0px;
+      padding: 0px;
     }
-    .img-2 {
-      position: absolute;
-      margin-top: 570px;
-      margin-left: 12%;
-      height: 410px;
-    }
-    .container-3 h1 {
-      background-color: #fff;
-      margin-left: 800px;
-      padding-left: 15px;
-      padding-right: 15px;
-      padding-top: 15px;
-      padding-bottom: 15px;
-      font-size: 70px;
-      margin-top: 150px;
-      width: 350px;
-      position:static;
-    }
-    .container-3 h3 {
-      margin-top: 40px;
-      margin-left: 590px;
-      width: 590px;
-    }
-    .container-3 a {
-      margin-top: 60px;
-      margin-left: 900px;
-      color: #fff;
-      background-color: #000;
-      border: none;
-      border-radius: 10px;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      padding-left: 80px;
-      padding-right: 80px;
-      font-size: 20px;
-    }
-      .container-3 a:hover {
-        background-color: #222;
-        color: #fff;
+      .img-1 {
+        position: absolute;
+        margin-top: -828px;
+        margin-left: -12%;
+        height: 855px;
+        width: 813px;
       }
+      .img-2 {
+        position: absolute;
+        margin-top: -96px;
+        margin-left: 233px;
+        height: 545px;
+        width: 746px;
+      }
+      .container-3 h1 {
+        font-size: 80px;
+        margin-top: 196px;
+        width: 466px;
+        height: 116px;
+        float: right;
+        margin-right: 18px;
+        margin-left: auto;
+        align-items: center;
+        text-align: center;
+      }
+      .container-3 h3 {
+        margin-top: 373px;
+        width: auto;
+        height: 320px;
+        text-align: right;
+        display: block;
+        justify-items: center;
+        font-size: 33px;
+      }
+      .container-3 a {
+        margin-top: 66px;
+        float: right;
+        margin-left: auto;
+        margin-right: 18px;
+        color: #fff;
+        background-color: #000;
+        border: none;
+        border-radius: 10px;
+        height: 101px;
+        width: 320px;
+        text-align: center;
+        justify-items: center;
+        font-size: 33px;
+        padding-top: 24px;
+      }
+        .container-3 a:hover {
+          background-color: #222;
+          color: #fff;
+        }
   .container-4 {
     height: 1200px;
   }
-    .container-4 h1 {
-        padding-left: 15px;
-        padding-top: 15px;
-        font-size: 70px;
-        margin-top: 270px;
-        width: 450px;
+    .container-4 .row {
+      margin: 0px;
+      padding: 0px;
     }
-    .container-4 h3 {
-      margin-top: 60px;
-    }
-    .container-4 a {
-      color: #fff;
-      background-color: #000;
-      border: none;
-      border-radius: 10px;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      padding-left: 80px;
-      padding-right: 80px;
-      font-size: 20px;
-      margin-top: 40px;
-      margin-left: 40px;
-    }
-      .container-4 a:hover {
-        background-color: #222;
-        color: #fff;
+      .container-4 .col-md-4, .container-4 .col-md-12 {
+        padding: 0px;
+        margin: 0px;
       }
-    .image-4-div {
-      margin-top: 40px;
-      width: 860px;
-    }
-    .image-4 {
-      position: absolute;
-      margin-top: 40px;
-      width: 860px;
-      height: 860px;
-    }
-    .container-4 h2 {
-      color: #fff;
-      position: absolute;
-      background-color: #b5d8b3;
-      margin-top: 580px;
-      margin-left: 225px;
-      height: 180px;
-      width: 350px;
-      padding-top: 40px;
-      padding-left: 50px;
-      font-size: 40px;
-    }
+      .container-4 h1 {
+          font-size: 70px;
+          margin-top: 356px;
+          width: 515px;
+          height: 117px;
+          text-align: center;
+          padding-top: 30px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 0px;
+      }
+      .container-4 h3 {
+        margin-top: 84px;
+        text-align: center;
+        font-size: 30px;
+      }
+      .container-4 a {
+        color: #fff;
+        background-color: #000;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+        margin-top: 80px;
+        margin-left: 69px;
+        height: 100px;
+        width: 406px;
+        text-align: center;
+        padding-top: 35px;
+      }
+        .container-4 a:hover {
+          background-color: #222;
+          color: #fff;
+        }
+      
+      .image-4 {
+        position: absolute;
+        margin-top: -800px;
+        margin-left: 609px;
+        width: 1149px;
+        height: 1149px;
+      }
+      .container-4 h2 {
+        color: #fff;
+        position: absolute;
+        background-color: #b5d8b3;
+        margin-top: -80px;
+        margin-left: 947px;
+        height: 236px;
+        width: 555px;
+        padding-top: 50px;
+        font-size: 60px;
+        text-align: center;
+      }
   .container-5 {
     height: 1381px;
   }
-    .container-5-h3-1 {
-      font-weight: bold;
-      margin-top: 50px;
+    .container-5 .container {
+      width: 1920px;
     }
+      .container-5 .container-5-row-1 {
+        padding: 0px;
+        margin: 0px;
+      }
+        .container-5 h1 {
+          margin-bottom: 0px;
+          padding-top: 30px;
+          margin-top: 88px;
+          text-align: center;
+          height: 116px;
+          width: 560px;
+          font-size: 60px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      .container-5 .container-5-row-2 {
+        margin-left: 80px;
+        margin-right: 80px;
+      }
+
+        .container-5-row-2-h3-1 {
+          font-weight: bold;
+          margin-top: 129px;
+          font-size: 33px;
+        }
+        .container-5-row-2-h3-2 {
+          margin-top: 26px;
+          font-size: 33px;
+        }
     .carousel-1-1 {
       margin-top: 50px;
     }

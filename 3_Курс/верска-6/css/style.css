@@ -336,6 +336,13 @@ h2, h3, h4, h5, h6 {
         margin-left: -100px;
         border: solid 28px #fff;
       }
+      .object-5 {
+        position: absolute;
+        height: 626px;
+        width: 164px;
+        margin-top: -376px;
+        margin-left: -165px;
+      }
   .container-5 {
     height: 1381px;
   }
@@ -376,6 +383,13 @@ h2, h3, h4, h5, h6 {
     .carousel-1-1 {
       margin-top: 50px;
     }
+    .object-6 {
+      position: absolute;
+      width: 385px;
+      margin-top: -1490px;
+      margin-left: 1500px;
+      z-index: -1;
+    }
   .container-6 {
     height: 870px;
   }
@@ -389,6 +403,16 @@ h2, h3, h4, h5, h6 {
         width: 100%;
         height: 650px; 
       }
+        .container-6-1 {
+          position: absolute;
+          z-index: -1;
+          margin-top: -610px;
+          margin-left: -45px;
+          padding: 0px;
+          width: 100%;
+          height: 650px;
+          background-color: #fff;
+        }
       .container-6 h1 {
         margin-top: 220px;
         margin-left: 162px;
@@ -404,68 +428,95 @@ h2, h3, h4, h5, h6 {
         float: right;
         font-size: 30px;
         text-align: right;
-      } 
+      }
+      .object-7 {
+        position: absolute;
+        height: 533px;
+        width: 126px;
+        margin-top: -800px;
+        margin-left: -180px;
+        z-index: -1;
+      }
+      .object-8 {
+        position: absolute;
+        height: 345px;
+        width: 246px;
+        margin-top: -150px;
+        margin-left: 1475px;
+        z-index: -1;
+      }
   .container-7 {
     height: 1386px;
   }
-    .container-7 .row {
-      margin: 0px;
-      padding: 0px;
+    .container-7-1 {
+      width: 1920px;
+      margin-left: auto;
+      margin-right: auto;
     }
-      .container-7 h1 {
-        margin-top: 165px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 0px;
-        font-size: 80px;
-        width: 310px;
-        height: 120px;
-        padding-top: 25px;
-        text-align: center;
+      .container-7 .row {
+        margin: 0px;
+        padding: 0px;
       }
-      .container-7 h3 {
-        margin-top: 57px;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 32px;
-        margin-bottom: 89px;
-        text-align: center;
-      }
-      .container-7 img {
-        width: 486px;
-        height: 550px;
-      }
-      .container-7 a {
-        background-color: #ffffffaa;
-        padding: 44px;
-        position: relative;
-        margin-top: -70px;
-        margin-left: 40px;
-        border: none;
-        height: 186px;
-        width: 412px;
-      }
-        .container-7 a:hover {
-          border: none;
-        }
-        .container-7 p {
-          color: #fff;
-          width: 100%;
-          height: 100%;
-          border-radius: 10px;
-          background-color: #000;
+        .container-7 h1 {
+          margin-top: 165px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 0px;
+          font-size: 80px;
+          width: 310px;
+          height: 120px;
           padding-top: 25px;
-          font-size: 30px;
           text-align: center;
         }
-      .container-7 .col-md-4 h3 {
-        margin-top: 32px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 0px;
-        font-size: 30px;
-        width: 420px;
-      }
+        .container-7 h3 {
+          margin-top: 57px;
+          margin-left: auto;
+          margin-right: auto;
+          font-size: 32px;
+          margin-bottom: 89px;
+          text-align: center;
+        }
+        .container-7-img {
+          width: 486px;
+          height: 550px;
+        }
+        .container-7 a {
+          background-color: #ffffffaa;
+          padding: 44px;
+          position: relative;
+          margin-top: -70px;
+          margin-left: 40px;
+          border: none;
+          height: 186px;
+          width: 412px;
+        }
+          .container-7 a:hover {
+            border: none;
+          }
+          .container-7 p {
+            color: #fff;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            background-color: #000;
+            padding-top: 25px;
+            font-size: 30px;
+            text-align: center;
+          }
+        .container-7 .col-md-4 h3 {
+          margin-top: 32px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 0px;
+          font-size: 30px;
+          width: 420px;
+        }
+        .object-9 {
+          position: absolute;
+          width: 1920px;
+          margin-top: -960px;
+          z-index: -1;
+        }
   .container-8 {
     height: 1106px;
   }
@@ -488,7 +539,21 @@ h2, h3, h4, h5, h6 {
         width: 1200px;
         font-size: 30px;
       }
-      .container-8 img {
+      .object-10 {
+        position: absolute;
+        width: 128px;
+        margin-top: -600px;
+        margin-left: -180px;
+        z-index: -2;
+      }
+      .object-11 {
+        position: absolute;
+        width: 293px;
+        margin-top: -430px;
+        margin-left: 1430px;
+        z-index: -2;
+      }
+      .container-8-img {
         width: 485px;
         height: 552px;
       }
@@ -518,12 +583,18 @@ h2, h3, h4, h5, h6 {
       margin: 0px;
       padding: 0px;
     }
-      .container-9 iframe {
+      .container-9-1 {
+        padding: 42px;
         margin-top: 366px;
         width: 750px;
         height: 750px;
         margin-left: auto;
         margin-right: auto;
+        background-color: #fff;
+      }
+      .container-9 iframe {
+        width: 100%;
+        height: 100%;
       }
       .container-9 h1 {
         font-size: 70px;

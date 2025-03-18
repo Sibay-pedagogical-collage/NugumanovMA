@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nugumanov</title>
+  <title>Student</title>
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,9 +24,11 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button> <!-- /.button -->
-              <a class="navbar-brand" href="#"><img class="img-rounded" src="img/logo-1.png" alt="logo-1" ></a>
+              <div class="row">
+                <a class="navbar-brand col-sm-offset-3" href="#"><img class="img-rounded" src="img/logo-1.png" alt="logo-1" ></a>
+              </div> <!-- /.row -->
             </div> <!-- /.navbar-header col-md-2 -->
-            <div class="col-md-10">
+            <div class="col-md-9 col-md-offset-1 col-sm-12">
               <div class="collapse navbar-collapse menu-1" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav menu-1-ul">
                   <div class="row">
@@ -47,24 +49,16 @@
   <div class="container-2">
     <div class="container">
       <div class="row">
-        <div class="col-md-5">
-          <h1 class="stardos-stencil-bold">The Coffee</h1>
-        </div>
+        <h1 class="stardos-stencil-bold col-xs-5">The Coffee</h1>
       </div> <!-- /.row -->
       <div class="row">
-        <div class="col-md-5">
-          <h2 class="stardos-stencil-bold">The art of coffee<br>in your cup</h2>
-        </div>
+        <h2 class="stardos-stencil-bold col-xs-5">The art of coffee<br>in your cup</h2>
       </div> <!-- /.row -->
       <div class="row">
-        <div class="col-md-7">
-          <h3 class="source-code-pro">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt ut labore et dolore magna aliqua.</h3>
-        </div>
+        <h3 class="source-code-pro col-xs-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt ut labore et dolore magna aliqua.</h3>
       </div> <!-- /.row -->
       <div class="row">
-        <div class="col-md-3">
-          <a class="btn btn-default container-2-a source-code-pro" href="#" role="button">RESERVE HERE</a>
-        </div>
+        <a class="btn btn-default container-2-a source-code-pro col-xs-3" href="#" role="button">RESERVE HERE</a>
       </div> <!-- /.row -->
     </div> <!-- /.container -->
   </div> <!-- /.conrainer-2 -->
@@ -117,12 +111,14 @@
       <div class="row container-5-row-3">
         <div class="col-md-12 carousel-1-1">
           <div class="carousel carousel-showmanymoveone slide" id="carousel-tilenav" data-interval="false">
-            <ol class="carousel-indicators">
-              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-            </ol>
+            <div class="carousel-indicators_block">
+              <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+                <li data-target="#carousel" data-slide-to="3"></li>
+              </ol>
+            </div> <!-- /.carousel-indicators_block -->
             <div class="carousel-inner">
               <div class="item active">
                 <div class="col-xs-12 col-sm-6 col-md-4">
@@ -156,15 +152,14 @@
                   </div>
                 </div>
               </div>
-                
             </div>
             <a class="left carousel-control carousel-caption-left" href="#carousel-tilenav" data-slide="prev"><i class="glyphicon glyphicon-menu-right"></i></a>
             <a class="right carousel-control carousel-caption-right" href="#carousel-tilenav" data-slide="next"><i class="glyphicon glyphicon-menu-right"></i></a>
           </div>
           <img src="img/Object-6.png" alt="object-6 clearfix" class="img-responsive object-6">
-        </div>
-      </div>
-    </div>
+        </div> <!-- /.col-md-12 carousel-shwmanymoveon slide -->
+      </div> <!-- /.row container-5-row-2 -->
+    </div> <!-- /.container -->
   </div> <!-- /.container-5 -->
   <div class="container-6">
     <div class="container">

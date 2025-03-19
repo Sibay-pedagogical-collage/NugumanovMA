@@ -276,8 +276,9 @@ h2, h3, h4, h5, h6 {
       }
       .container-4 h1 {
           font-size: 70px;
-          margin-top: 356px;
-          /* width: 515px; */
+          /* margin-top: 356px;
+          width: 515px; */
+          margin-top: 60px;
           width: 505px;
           padding: 24px 48px;
           margin-bottom: 0px;
@@ -797,8 +798,11 @@ h2, h3, h4, h5, h6 {
   .container-2 h3 { width: 600px;}
   .container-3 h1 { font-size: 60px; margin-left: -45%;}
   .container-3 h3 { width: 600px; margin-left: -90%;}
-  .container-3 a {margin-left: -50%;}
-  .container-3 .img-2 {margin-left: 200px;}
+  .container-3 a { margin-left: -50%;}
+  .container-3 .img-2 { margin-left: 200px;}
+  .container-4 h1 { margin-left: 220px; margin-top: 60px;}
+  .container-4 h3 { margin-left: 180px;}
+  .container-4 a { margin-left: 260px;}
 }
 /* на md */
 @media (min-width: 992px) {
@@ -809,6 +813,9 @@ h2, h3, h4, h5, h6 {
   .container-3 h3 { width: 600px; margin-left: -60%;}
   .container-3 a { margin-left: -20%;}
   .container-3 .img-2 {margin-left: 233px;}
+  .container-4 .image-4 { margin-left: 2.5%;}
+  .container-4 h2 { margin-left: 170px;}
+  .container-4 h1 { margin-left: 220px; }
 }
 /* на lg */
 @media (min-width: 1200px) {
@@ -816,14 +823,21 @@ h2, h3, h4, h5, h6 {
   .container-3 h1 { font-size: 80px; margin-left: -5%;}
   .container-3 h3 { width: 600px; margin-left: -30.0%;}
   .container-3 a { margin-left: 10%;}
+  .container-4 .image-4 { margin-left: 15%;}
+  .container-4 h2 { margin-left: 360px;}
 }
 @media (min-width: 1600px) {
   .container-2 h3 { width: 1600px;}
   .container-3 { min-height: 1361px;}
     .container-3 h1 { font-size: 80px; margin-left: 50%;}
-    .container-3 h3 {width: 760px;margin-left: 0%;}
+    .container-3 h3 { width: 760px;margin-left: 0%;}
     .container-3 a { margin-left: 60%;}
   .container-4 { min-height: 1200px;}
+    .container-4 .image-4 { margin-top: -800px; margin-left: 609px; width: 1149px; z-index: -1;}
+    .container-4 h2 { margin-top: -80px; margin-left: 947px;}
+    .container-4 h1 { margin-top: 356px; margin-left: auto; margin-right: auto;}
+    .container-4 h3 { margin-left: -12px; width: auto;} 
+    .container-4 a { margin-left: 69px;}
 }
 
 /* carousel */

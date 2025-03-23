@@ -29,23 +29,51 @@ header {
 h2, h3, h4, h5, h6 {
   margin-bottom: 0px;
 }
-.stardos-stencil-regular {
-  font-family: "Stardos Stencil", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-  
-.stardos-stencil-bold {
-  font-family: "Stardos Stencil", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-.source-code-pro {
-  font-family: "Source Code Pro", serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-}
+/* --Fonts-- */
+  /* --Stardos Stencil-- */ 
+    @font-face { font-family: "Stardos Stencil", serif; src: url("./../fonts/Stardos_Stencil/StardosStencil-Bold.ttf") format("ttf"); font-style: normal; font-weight: 700;}
+    @font-face { font-family: "Stardos Stencil", serif; src: url("./../fonts/Stardos_Stencil/StardosStencil-Regular.ttf") format("ttf"); font-style: normal; font-weight: 400;}
+    .stardos-stencil-regular { font-family: "Stardos Stencil"; font-weight: 400;}
+    .stardos-stencil-bold { font-family: "Stardos Stencil"; font-weight: 700;}
+  /* --/Stardos Stencil-- */
+  /* --Source Code Pro-- */
+    /* --Roman-- */
+      @font-face { font-family: "Source Code Pro", monospace; src: url("./../fonts/Source_Code_Pro/static/SourceCodePro-ExtraLight.ttf") format("ttf"); font-weight: 200; font-style: normal;}
+      .source-code-pro-extra-light { font-family: "Source Code Pro", monospace; font-weight: 200;}
+      @font-face { font-family: "Source Code Pro", monospace; src: url("./../fonts/Source_Code_Pro/static/SourceCodePro-Light.ttf") format("ttf"); font-weight: 300; font-style: normal;}
+      .source-code-pro-light { font-family: "Source Code Pro", monospace; font-weight: 300;}
+      @font-face { font-family: "Source Code Pro", monospace; src: url("./../fonts/Source_Code_Pro/static/SourceCodePro-Regular.ttf") format("ttf"); font-weight: 400; font-style: normal;}
+      .source-code-pro-regular { font-family: "Source Code Pro", monospace; font-weight: 400;}
+      @font-face { font-family: "Source Code Pro", monospace; src: url("./../fonts/Source_Code_Pro/static/SourceCodePro-Medium.ttf") format("ttf"); font-weight: 500; font-style: normal;}
+      .source-code-pro-medium { font-family: "Source Code Pro", monospace; font-weight: 500;}
+      @font-face { font-family: "Source Code Pro", monospace; src: url("./../fonts/Source_Code_Pro/static/SourceCodePro-SemiBold.ttf") format("ttf"); font-weight: 600; font-style: normal;}
+      .source-code-pro-semi-bold { font-family: "Source Code Pro", monospace; font-weight: 600;}
+      @font-face { font-family: "Source Code Pro", monospace; src: url("./../fonts/Source_Code_Pro/static/SourceCodePro-Bold.ttf") format("ttf"); font-weight: 700; font-style: normal;}
+      .source-code-pro-bold { font-family: "Source Code Pro", monospace; font-weight: 700;}
+      @font-face { font-family: "Source Code Pro", monospace; src: url("./../fonts/Source_Code_Pro/static/SourceCodePro-ExtraBold.ttf") format("ttf"); font-weight: 800; font-style: normal;}
+      .source-code-pro-extra-bold { font-family: "Source Code Pro", monospace; font-weight: 800;}
+      @font-face { font-family: "Source Code Pro", monospace; src: url("./../fonts/Source_Code_Pro/static/SourceCodePro-Black.ttf") format("ttf"); font-weight: 900; font-style: normal;}
+      .source-code-pro-black { font-family: "Source Code Pro", monospace; font-weight: 900;}
+    /* --/Roman-- */
+    /* --Italic-- */
+      @font-face { font-family: "Source Code Pro", monospace; src: url("./../fonts/Source_Code_Pro/static/SourceCodePro-ExtraLightItalic.ttf") format("ttf"); font-weight: 200; font-style: normal;}
+      .source-code-pro-extra-light-italic { font-family: "Source Code Pro", monospace; font-weight: 200;}
+      @font-face { font-family: "Source Code Pro", monospace; src: url("./../fonts/Source_Code_Pro/static/SourceCodePro-LightItalic.ttf") format("ttf"); font-weight: 300; font-style: normal;}
+      .source-code-pro-light-italic { font-family: "Source Code Pro", monospace; font-weight: 300;}
+      @font-face { font-family: "Source Code Pro", monospace; src: url("./../fonts/Source_Code_Pro/static/SourceCodePro-Italic.ttf") format("ttf"); font-weight: 400; font-style: normal;}
+      .source-code-pro-regular-italic { font-family: "Source Code Pro", monospace; font-weight: 400;}
+      @font-face { font-family: "Source Code Pro", monospace; src: url("./../fonts/Source_Code_Pro/static/SourceCodePro-MediumItalic.ttf") format("ttf"); font-weight: 500; font-style: normal;}
+      .source-code-pro-medium-italic { font-family: "Source Code Pro", monospace; font-weight: 500;}
+      @font-face { font-family: "Source Code Pro", monospace; src: url("./../fonts/Source_Code_Pro/static/SourceCodePro-SemiBoldItalic.ttf") format("ttf"); font-weight: 600; font-style: normal;}
+      .source-code-pro-semi-bold-italic { font-family: "Source Code Pro", monospace; font-weight: 600;}
+      @font-face { font-family: "Source Code Pro", monospace; src: url("./../fonts/Source_Code_Pro/static/SourceCodePro-BoldItalic.ttf") format("ttf"); font-weight: 700; font-style: normal;}
+      .source-code-pro-bold-italic { font-family: "Source Code Pro", monospace; font-weight: 700;}
+      @font-face { font-family: "Source Code Pro", monospace; src: url("./../fonts/Source_Code_Pro/static/SourceCodePro-ExtraBoldItalic.ttf") format("ttf"); font-weight: 800; font-style: normal;}
+      .source-code-pro-extra-bold-italic { font-family: "Source Code Pro", monospace; font-weight: 800;}
+      @font-face { font-family: "Source Code Pro", monospace; src: url("./../fonts/Source_Code_Pro/static/SourceCodePro-BlackItalic.ttf") format("ttf"); font-weight: 900; font-style: normal;}
+      .source-code-pro-blackt-italic { font-family: "Source Code Pro", monospace; font-weight: 900;}
+    /* --/Italic-- */
+/* --/.Fonts-- */
   .container-1 {
     min-height: 235px;
     background-color: #ffffff;
@@ -347,7 +375,7 @@ h2, h3, h4, h5, h6 {
         margin-left: -165px;
       }
   .container-5 {
-    height: 1381px;
+    min-height: 1381px;
   }
     .container-5 .container {
       width: 2400px;
@@ -473,7 +501,7 @@ h2, h3, h4, h5, h6 {
             border-radius: 16px;
           }
   .container-6 {
-    height: 870px;
+    min-height: 870px;
   }
     .container-6 .row {
       margin: 0px;
@@ -528,7 +556,7 @@ h2, h3, h4, h5, h6 {
         z-index: -1;
       }
   .container-7 {
-    height: 1386px;
+    min-height: 1386px;
   }
     .container-7-1 {
       width: 1920px;
@@ -600,7 +628,7 @@ h2, h3, h4, h5, h6 {
           z-index: -1;
         }
   .container-8 {
-    height: 1106px;
+    min-height: 1106px;
   }
     .container-8 .row {
       margin: 0px;
@@ -635,31 +663,76 @@ h2, h3, h4, h5, h6 {
         margin-left: 1430px;
         z-index: -2;
       }
-      .container-8-img {
-        width: 485px;
-        height: 552px;
-      }
-      .blog-info {
-        background-color: #fff;
-        position: relative;
-        padding: 38px;
-        margin-top: -200px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 429px;
-        height: 314px;
-      }
-        .blog-info h3 {
-          font-size: 22px;
-          padding-top: 0px;
-          margin-top: 0px;
+        .wrapper {
+          display: table;
+          height: 100%;
+          width: 100%;
         }
-        .blog-info h3:last-child {
-          font-weight: bold;
-          padding-top: 73px;
-        }
+          .container-fostrap {
+            display: table-cell;
+            padding: 1em;
+            text-align: center;
+            vertical-align: middle;
+          }
+            .container-fostrap .container {
+              width: auto;
+            }
+              .card {
+                display: block; 
+                  margin-bottom: 20px;
+                  line-height: 1.42857143;
+                  border-radius: 2px;
+                  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); 
+                  transition: box-shadow .25s; 
+              }
+                .card:hover {
+                  box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+                }
+                .img-card {
+                  width: 100%;
+                  height:500px;
+                  border-top-left-radius:2px;
+                  border-top-right-radius:2px;
+                  display:block;
+                    overflow: hidden;
+                }
+                  .img-card img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit:cover; 
+                    transition: all .25s ease;
+                  }
+                .card-content {
+                  text-align: left;
+                  margin-top: -240.4px;
+                  margin-left: 10%;
+                  position: relative;
+                  background-color: #fff;
+                  width: 90%;
+                  padding: 80px 30px;
+                  font-size: 24.0px;
+                }
+                .card-read-more {
+                  border-top: 1px solid #D4D4D4;
+                  width: 90%;
+                  margin-left: 10%;
+                }
+                .card-read-more a {
+                  text-decoration: none !important;
+                  padding: 0px 30px 60px 30px;
+                  font-weight: 600;
+                  text-transform: uppercase;
+                  font-size: 26.6px;
+                  text-align: left;
+                  background-color: #fff;
+                  color: #000;
+                }
+                  .card-read-more a:hover {
+                    color: #000;
+                    background-color: #eee;
+                  }
   .container-9 {
-    height: 1170px;
+    min-height: 1170px;
   }
     .container-9 .row {
       margin: 0px;
@@ -714,7 +787,7 @@ h2, h3, h4, h5, h6 {
             color: #fff;
           }
   .container-10 {
-    height: 854px;
+    min-height: 854px;
   }
     .container-10-1 {
       border: #fff solid 62px;
@@ -928,3 +1001,4 @@ all and (min-width: 992px) and (-webkit-transform-3d) {
     left: 0;
   }
 }
+

@@ -18,68 +18,78 @@ a:hover {
   color: #fff;
 }
 h2, h3, h4, h5, h6 {
-  margin: 0px;
+  margin: 0;
   padding: 0;
+}
+p {
+  padding: 0;
+  margin: 0;
+  font-size: 26px;
 }
 @media (max-width: 312px) {
   .container {
-  max-width: 300px;
-}
+    width: 300px;
+  }
 }
 @media (max-width: 372px) and (min-width: 313px) {
   .container {
-  max-width: 312px;
-}
+    width: 312px;
+  }
 }
 @media (max-width: 444px) and (min-width: 373px) {
   .container {
-  max-width: 372px;
-}
+    width: 372px;
+  }
 }
 @media (max-width: 528px) and (min-width: 445px) {
   .container {
-  max-width: 444px;
-}
+    width: 444px;
+  }
 }
 @media (max-width: 624px) and (min-width: 529px) {
   .container {
-  max-width: 528px;
-}
+    width: 528px;
+  }
 }
 @media (max-width: 732px) and (min-width: 625px) {
   .container {
-  max-width: 624px;
+    width: 624px;
+  }
 }
-}
-@media (max-width: 864px) and (min-width: 733px) {
+@media (max-width: 768px) and (min-width: 733px) {
   .container {
-  max-width: 732px;
+    width: 732px;
+  }
 }
+@media (max-width: 864px) and (min-width: 769px) {
+  .container {
+    width: 768px;
+  }
 }
 @media (max-width: 992px) and (min-width: 865px) {
   .container {
-  width: 864px;
-}
+    width: 864px;
+  }
 }
 @media (max-width: 1020px) and (min-width: 993px) {
   .container {
-  width: 992px;
-}
+    width: 992px;
+  }
 }
 @media (max-width: 1200px) and (min-width: 1021px) {
   .container {
-  width: 1020px;
-}
+    width: 1020px;
+  }
 }
 @media (max-width: 1440px) and (min-width: 1201px) {
   .container {
-  width: 1200px;
-}
+    width: 1200px;
+  }
 }
 @media (max-width: 1600px) and (min-width: 1441px) {
   .container {
-    width: 1440px;
-  }
+      width: 1440px;
+    }
 }
 @media (min-width: 1601px) {
   .container {
@@ -137,7 +147,8 @@ h2, h3, h4, h5, h6 {
 @media (max-width: 528px) and (min-width: 445px) {}
 @media (max-width: 624px) and (min-width: 529px) {}
 @media (max-width: 732px) and (min-width: 625px) {}
-@media (max-width: 864px) and (min-width: 733px) {}
+@media (max-width: 768px) and (min-width: 733px) {}
+@media (max-width: 864px) and (min-width: 769px) {}
 @media (max-width: 992px) and (min-width: 865px) {}
 @media (max-width: 1020px) and (min-width: 993px) {}
 @media (max-width: 1200px) and (min-width: 1021px) {}
@@ -157,32 +168,278 @@ h2, h3, h4, h5, h6 {
       border: none;
     }
       .container-1 .navbar-header {
-        width: 20%;
+        margin: 0;
+        padding: 0;
       }
         .container-1 .navbar-header .navbar-brand {
           padding: 0;
-          margin: 0;
+          margin: 84px 0 45px 0;
         }
-      .container-1 .navbar-nav {
-        width: 80%;
+      .container-1 .navbar-collapse {
+        margin: 0;
+        z-index: 2;
       }
-        .container-1 .navbar-nav li {
-          width: 20%;
-          text-align: center;
+        .container-1 .navbar-nav {
+          width: 78%;
+          margin: 0;
+          padding: 0;
+          float: right;
         }
-          .container-1 .navbar-nav li a {
-            padding: 102px 0 60px 0;
+          .container-1 .navbar-nav li {
+            width: 20%;
+            text-align: center;
           }
-@media (max-width: 312px) {}
-@media (max-width: 372px) and (min-width: 313px) {}
-@media (max-width: 444px) and (min-width: 373px) {}
-@media (max-width: 528px) and (min-width: 445px) {}
-@media (max-width: 624px) and (min-width: 529px) {}
-@media (max-width: 732px) and (min-width: 625px) {}
-@media (max-width: 864px) and (min-width: 733px) {}
+            .container-1 .navbar-nav li a {
+              padding: 102px 0 60px 0;
+              font-size: 40px;
+              color: #000;
+            }
+            .container-1 .navbar-nav li a:hover {
+              text-decoration: underline #b5d8b3 solid 8px;
+              text-underline-offset: 10px;
+            }
+@media (max-width: 312px) {
+  .container-1 .navbar-nav li {
+    width: 100%;
+    text-align: left;
+    display: block;
+  }
+  .container-1 .navbar-collapse {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+  }
+  .container-1 .navbar-nav li a {
+    font-size: 32px;
+    padding: 10px;
+  }
+}
+@media (max-width: 372px) and (min-width: 313px) {
+  .container-1 .navbar-nav li {
+    width: 100%;
+    text-align: left;
+    display: block;
+  }
+  .container-1 .navbar-collapse {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+  }
+  .container-1 .navbar-nav li a {
+    font-size: 32px;
+    padding: 10px;
+  }
+}
+@media (max-width: 444px) and (min-width: 373px) {
+  .container-1 .navbar-nav li {
+    width: 100%;
+    text-align: left;
+    display: block;
+  }
+  .container-1 .navbar-collapse {
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+  }
+  .container-1 .navbar-nav li a {
+    font-size: 32px;
+    padding: 10px;
+  }
+}
+@media (max-width: 528px) and (min-width: 445px) {
+  .container-1 .navbar-nav li {
+    width: 100%;
+    text-align: left;
+    display: block;
+  }
+  .container-1 .navbar-collapse {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+  }
+  .container-1 .navbar-nav li a {
+    font-size: 32px;
+    padding: 10px;
+  }
+}
+@media (max-width: 624px) and (min-width: 529px) {
+  .container-1 .navbar-nav li {
+    width: 100%;
+    text-align: left;
+    display: block;
+  }
+  .container-1 .navbar-collapse {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+  }
+  .container-1 .navbar-nav li a {
+    font-size: 32px;
+    padding: 10px;
+  }
+}
+@media (max-width: 732px) and (min-width: 625px) {
+  .container-1 .navbar-nav li {
+    width: 100%;
+    text-align: left;
+    display: block;
+  }
+  .container-1 .navbar-collapse {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+  }
+  .container-1 .navbar-nav li a {
+    font-size: 32px;
+    padding: 10px;
+  }
+}
+@media (max-width: 768px) and (min-width: 733px) {
+  .container-1 .navbar-nav li {
+    width: 100%;
+    text-align: left;
+    display: block;
+  }
+  .container-1 .navbar-collapse {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+  }
+  .container-1 .navbar-nav li a {
+    font-size: 32px;
+    padding: 10px;
+  }
+}
+@media (max-width: 864px) and (min-width: 769px) {
+  .container-1 .navbar-nav li a {
+    font-size: 32px;
+  }
+}
+@media (max-width: 992px) and (min-width: 865px) {
+  .container-1 .navbar-nav li a {
+    font-size: 32px;
+  }
+}
+@media (max-width: 1020px) and (min-width: 993px) {}
+@media (max-width: 1200px) and (min-width: 1021px) {}
+@media (max-width: 1440px) and (min-width: 1201px) {}
+@media (max-width: 1600px) and (min-width: 1441px) {}
+@media (min-width: 1601px) {}
+
+
+.container-2 {
+  height: 822px;
+  background-image: url(../img/image-1-2.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+}
+  .container-2::before {
+    height: 822px;
+    width: 100%;
+    position: absolute;
+    background-image: url(../img/Rectangle-3.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container-2 .container {
+    padding: 0;
+  }
+    .container-2 .row {
+      padding: 0;
+      margin: 0;
+    }
+      .container-2 h1 {
+        font-size: 85px;
+        width: max-content;
+        margin-top: 83px;
+      }
+      .container-2 h2 {
+        margin-top: 41px;
+        font-size: 55px;
+        color: #fff;
+      }
+      .container-2 p {
+        margin-top: 33px;
+      }
+      .container-2 button {
+        margin-top: 48px;
+        width: 239px;
+        height: 75px;
+        font-size: 20px;
+        background-color: #000;
+        color: #fff;
+        border-radius: 10px;
+        border: none;
+      }
+        .container-2 button:hover {
+          background-color: #222;
+          color: #fff;
+        }
+@media (max-width: 312px) {
+  .container-2 h1 {
+    font-size: 50px;
+  }
+  .container-2 h2 {
+    font-size: 33px;
+  }
+}
+@media (max-width: 372px) and (min-width: 313px) {
+  .container-2 h1 {
+    font-size: 50px;
+  }
+  .container-2 h2 {
+    font-size: 33px;
+  }
+}
+@media (max-width: 444px) and (min-width: 373px) {
+  .container-2 h1 {
+    font-size: 50px;
+  }
+  .container-2 h2 {
+    font-size: 33px;
+  }
+}
+@media (max-width: 528px) and (min-width: 445px) {
+  .container-2 h1 {
+    font-size: 50px;
+  }
+  .container-2 h2 {
+    font-size: 33px;
+  }
+}
+@media (max-width: 624px) and (min-width: 529px) {
+  .container-2 h1 {
+    font-size: 50px;
+  }
+  .container-2 h2 {
+    font-size: 33px;
+  }
+}
+@media (max-width: 732px) and (min-width: 625px) {
+  .container-2 h1 {
+    font-size: 50px;
+  }
+  .container-2 h2 {
+    font-size: 33px;
+  }
+}
+@media (max-width: 768px) and (min-width: 733px) {
+  .container-2 h1 {
+    font-size: 50px;
+  }
+  .container-2 h2 {
+    font-size: 33px;
+  }
+}
+@media (max-width: 864px) and (min-width: 769px) {}
 @media (max-width: 992px) and (min-width: 865px) {}
 @media (max-width: 1020px) and (min-width: 993px) {}
 @media (max-width: 1200px) and (min-width: 1021px) {}
 @media (max-width: 1440px) and (min-width: 1201px) {}
 @media (max-width: 1600px) and (min-width: 1441px) {}
 @media (min-width: 1601px) {}
+
+

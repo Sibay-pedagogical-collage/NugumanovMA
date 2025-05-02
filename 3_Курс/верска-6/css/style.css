@@ -10,8 +10,9 @@ img{
 h1 {
   background-color: #fff;
   padding: 15px;
-  font-size: 17px;
+  font-size: 65px;
   margin: 0;
+  width: max-content;
 }
 a:hover {
   background-color: #222;
@@ -26,39 +27,95 @@ p {
   margin: 0;
   font-size: 26px;
 }
+button, .btn, .btn-default {
+  width: 239px;
+  height: 75px;
+  font-size: 20px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+}
+  button:hover, .btn:hover, .btn-default:hover {
+    background-color: #222;
+    color: #fff;
+    border: none;
+  }
 @media (max-width: 312px) {
   .container {
     width: 300px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  p {
+    font-size: 20px;
   }
 }
 @media (max-width: 372px) and (min-width: 313px) {
   .container {
     width: 312px;
   }
+  h1 {
+    font-size: 50px;
+  }
+  p {
+    font-size: 20px;
+  }
 }
 @media (max-width: 444px) and (min-width: 373px) {
   .container {
     width: 372px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  p {
+    font-size: 20px;
   }
 }
 @media (max-width: 528px) and (min-width: 445px) {
   .container {
     width: 444px;
   }
+  h1 {
+    font-size: 50px;
+  }
+  p {
+    font-size: 20px;
+  }
 }
 @media (max-width: 624px) and (min-width: 529px) {
   .container {
     width: 528px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  p {
+    font-size: 20px;
   }
 }
 @media (max-width: 732px) and (min-width: 625px) {
   .container {
     width: 624px;
   }
+  h1 {
+    font-size: 50px;
+  }
+  p {
+    font-size: 20px;
+  }
 }
 @media (max-width: 768px) and (min-width: 733px) {
   .container {
     width: 732px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  p {
+    font-size: 20px;
   }
 }
 @media (max-width: 864px) and (min-width: 769px) {
@@ -171,6 +228,10 @@ p {
         margin: 0;
         padding: 0;
       }
+        .container-1 .navbar-header button {
+          width: auto;
+          height: auto;
+        }
         .container-1 .navbar-header .navbar-brand {
           padding: 0;
           margin: 84px 0 45px 0;
@@ -206,7 +267,7 @@ p {
   }
   .container-1 .navbar-collapse {
     position: absolute;
-    background-color: rgb(255, 255, 255);
+    background-color: #fff;
     width: 100%;
   }
   .container-1 .navbar-nav li a {
@@ -222,7 +283,7 @@ p {
   }
   .container-1 .navbar-collapse {
     position: absolute;
-    background-color: rgb(255, 255, 255);
+    background-color: #fff;
     width: 100%;
   }
   .container-1 .navbar-nav li a {
@@ -254,7 +315,7 @@ p {
   }
   .container-1 .navbar-collapse {
     position: absolute;
-    background-color: rgb(255, 255, 255);
+    background-color: #fff;;
     width: 100%;
   }
   .container-1 .navbar-nav li a {
@@ -270,7 +331,7 @@ p {
   }
   .container-1 .navbar-collapse {
     position: absolute;
-    background-color: rgb(255, 255, 255);
+    background-color: #fff;
     width: 100%;
   }
   .container-1 .navbar-nav li a {
@@ -286,7 +347,7 @@ p {
   }
   .container-1 .navbar-collapse {
     position: absolute;
-    background-color: rgb(255, 255, 255);
+    background-color: #fff;
     width: 100%;
   }
   .container-1 .navbar-nav li a {
@@ -302,7 +363,7 @@ p {
   }
   .container-1 .navbar-collapse {
     position: absolute;
-    background-color: rgb(255, 255, 255);
+    background-color: #fff;
     width: 100%;
   }
   .container-1 .navbar-nav li a {
@@ -353,7 +414,6 @@ p {
     }
       .container-2 h1 {
         font-size: 85px;
-        width: max-content;
         margin-top: 83px;
       }
       .container-2 h2 {
@@ -366,18 +426,7 @@ p {
       }
       .container-2 button {
         margin-top: 48px;
-        width: 239px;
-        height: 75px;
-        font-size: 20px;
-        background-color: #000;
-        color: #fff;
-        border-radius: 10px;
-        border: none;
       }
-        .container-2 button:hover {
-          background-color: #222;
-          color: #fff;
-        }
 @media (max-width: 312px) {
   .container-2 h1 {
     font-size: 50px;
@@ -443,3 +492,26 @@ p {
 @media (min-width: 1601px) {}
 
 
+.container-3 {
+  height: 976px;
+  padding: 0;
+}
+  .container-3 .container {
+    padding: 0;
+  }
+    .container-3 .row {
+      margin: 0;
+      padding: 0;
+    }
+      .container-3 h1 {
+        margin-top: 147px;
+        float: right;
+      }
+      .container-3 p {
+        margin-top: 45px;
+        text-align: right;
+      }
+      .container-3 button {
+        margin-top: 53px;
+        float: right;
+      }

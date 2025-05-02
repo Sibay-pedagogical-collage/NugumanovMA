@@ -515,3 +515,116 @@ button, .btn, .btn-default {
         margin-top: 53px;
         float: right;
       }
+@media (max-width: 312px) {}
+@media (max-width: 372px) and (min-width: 313px) {}
+@media (max-width: 444px) and (min-width: 373px) {}
+@media (max-width: 528px) and (min-width: 445px) {}
+@media (max-width: 624px) and (min-width: 529px) {}
+@media (max-width: 732px) and (min-width: 625px) {}
+@media (max-width: 768px) and (min-width: 733px) {}
+@media (max-width: 864px) and (min-width: 769px) {}
+@media (max-width: 992px) and (min-width: 865px) {}
+@media (max-width: 1020px) and (min-width: 993px) {}
+@media (max-width: 1200px) and (min-width: 1021px) {}
+@media (max-width: 1440px) and (min-width: 1201px) {}
+@media (max-width: 1600px) and (min-width: 1441px) {}
+@media (min-width: 1601px) {}
+
+
+.container-4 {
+  height: 900px;
+}
+  .container-4 .container {
+    padding: 0;
+  }
+    .container-4 .row {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+      .container-4 h1 {
+        margin-top: 267px;
+      }
+      .container-4 h2 {
+        margin-top: 77px;
+        padding: 45px 80px;
+        background-color: #b5d8b3;
+        width: max-content;
+        font-size: 40px;
+      }
+      .container-4 p {
+        margin-top: 60px;
+      }
+      .container-4 button {
+        margin-top: 60px;
+      }
+@media (max-width: 312px) {
+  .container-4 h1 {
+    font-size: 40px;
+  }
+  .container-4 h2 {
+    padding: 25px 40px;
+    font-size: 30px;
+  }
+}
+@media (max-width: 372px) and (min-width: 313px) {
+  .container-4 h1 {
+    font-size: 40px;
+  }
+  .container-4 h2 {
+    padding: 25px 40px;
+    font-size: 30px;
+  }
+}
+@media (max-width: 444px) and (min-width: 373px) {
+  .container-4 h1 {
+    font-size: 40px;
+  }
+  .container-4 h2 {
+    padding: 25px 40px;
+    font-size: 30px;
+  }
+}
+@media (max-width: 528px) and (min-width: 445px) {
+  .container-4 h1 {
+    font-size: 40px;
+  }
+  .container-4 h2 {
+    padding: 25px 40px;
+    font-size: 30px;
+  }
+}
+@media (max-width: 624px) and (min-width: 529px) {
+  .container-4 h1 {
+    font-size: 40px;
+  }
+  .container-4 h2 {
+    padding: 25px 40px;
+    font-size: 30px;
+  }
+}
+@media (max-width: 732px) and (min-width: 625px) {
+  .container-4 h1 {
+    font-size: 40px;
+  }
+  .container-4 h2 {
+    padding: 25px 40px;
+    font-size: 30px;
+  }
+}
+@media (max-width: 768px) and (min-width: 733px) {
+  .container-4 h1 {
+    font-size: 40px;
+  }
+  .container-4 h2 {
+    padding: 25px 40px;
+    font-size: 30px;
+  }
+}
+@media (max-width: 864px) and (min-width: 769px) {}
+@media (max-width: 992px) and (min-width: 865px) {}
+@media (max-width: 1020px) and (min-width: 993px) {}
+@media (max-width: 1200px) and (min-width: 1021px) {}
+@media (max-width: 1440px) and (min-width: 1201px) {}
+@media (max-width: 1600px) and (min-width: 1441px) {}
+@media (min-width: 1601px) {}

@@ -216,6 +216,8 @@ button, .btn, .btn-default {
 
 .container-1 {
   background-color: #fff;
+  position: relative;
+  z-index: 5;
 }
   .container-1 .container, .container-1 .container-fluid, .container-1.container-fluid, .container-1 .navbar-collapse {
     padding: 0;
@@ -396,6 +398,8 @@ button, .btn, .btn-default {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 0px;
+  position: relative;
+  z-index: 4;
 }
   .container-2::before {
     height: 822px;
@@ -405,6 +409,12 @@ button, .btn, .btn-default {
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .container-2 .Object-1 {
+    position: absolute;
+    right: 0%;
+    top: -140px;
+    z-index: 1;
   }
   .container-2 .container {
     padding: 0;
@@ -416,6 +426,8 @@ button, .btn, .btn-default {
       .container-2 h1 {
         font-size: 85px;
         margin-top: 83px;
+        z-index: 10;
+        position: relative;
       }
       .container-2 h2 {
         margin-top: 41px;
@@ -496,7 +508,27 @@ button, .btn, .btn-default {
 .container-3 {
   height: 976px;
   padding: 0;
+  position: relative;
+  z-index: 3;
 }
+  .container-3 .Object-2 {
+    position: absolute;
+    z-index: 5;
+    right: 0%;
+    top: -160px;
+  }
+  .container-3 .image-2 {
+    position: absolute;
+    z-index: 5;
+    left: 25%;
+    top:630px
+  }
+  .container-3 .image-3 {
+    position: absolute;
+    z-index: 5;
+    left: 0%;
+    top: 40px;
+  }
   .container-3 .container {
     padding: 0;
   }
@@ -526,7 +558,11 @@ button, .btn, .btn-default {
 @media (max-width: 864px) and (min-width: 769px) {}
 @media (max-width: 992px) and (min-width: 865px) {}
 @media (max-width: 1020px) and (min-width: 993px) {}
-@media (max-width: 1200px) and (min-width: 1021px) {}
+@media (max-width: 1200px) and (min-width: 1021px) {
+  .container-3 .image-2 {
+    left: 10%;
+  }
+}
 @media (max-width: 1440px) and (min-width: 1201px) {}
 @media (max-width: 1600px) and (min-width: 1441px) {}
 @media (min-width: 1601px) {}

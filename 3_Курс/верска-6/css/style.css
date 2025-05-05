@@ -510,6 +510,7 @@ button, .btn, .btn-default {
   padding: 0;
   position: relative;
   z-index: 3;
+  background-color: #888;
 }
   .container-3 .Object-2 {
     position: absolute;
@@ -520,14 +521,14 @@ button, .btn, .btn-default {
   .container-3 .image-2 {
     position: absolute;
     z-index: 5;
-    left: 25%;
-    top:630px
+    left: 170px;
+    bottom: -255px;
   }
   .container-3 .image-3 {
     position: absolute;
     z-index: 5;
-    left: 0%;
-    top: 40px;
+    left: -120px;
+    top: -680px;
   }
   .container-3 .container {
     padding: 0;
@@ -548,19 +549,134 @@ button, .btn, .btn-default {
         margin-top: 53px;
         float: right;
       }
-@media (max-width: 312px) {}
-@media (max-width: 372px) and (min-width: 313px) {}
-@media (max-width: 444px) and (min-width: 373px) {}
-@media (max-width: 528px) and (min-width: 445px) {}
-@media (max-width: 624px) and (min-width: 529px) {}
-@media (max-width: 732px) and (min-width: 625px) {}
-@media (max-width: 768px) and (min-width: 733px) {}
-@media (max-width: 864px) and (min-width: 769px) {}
-@media (max-width: 992px) and (min-width: 865px) {}
-@media (max-width: 1020px) and (min-width: 993px) {}
-@media (max-width: 1200px) and (min-width: 1021px) {
+@media (max-width: 312px) {
+  .container-3 .image-3 {
+    left: -60px;
+    width: 50%;
+    top: -790px;
+  }
   .container-3 .image-2 {
-    left: 10%;
+    left: 0px;
+    width: 50%;
+    bottom: -50px;
+  }
+}
+@media (max-width: 372px) and (min-width: 313px) {
+  .container-3 .image-3 {
+    left: -60px;
+    width: 50%;
+    top: -790px;
+  }
+  .container-3 .image-2 {
+    left: 0px;
+    width: 50%;
+    bottom: -50px;
+  }
+}
+@media (max-width: 444px) and (min-width: 373px) {
+  .container-3 .image-3 {
+    left: -60px;
+    width: 50%;
+    top: -790px;
+  }
+  .container-3 .image-2 {
+    left: 0px;
+    width: 50%;
+    bottom: -50px;
+  }
+}
+@media (max-width: 528px) and (min-width: 445px) {
+  .container-3 .image-3 {
+    left: -40px;
+    width: 55%;
+    top: -580px;
+  }
+  .container-3 .image-2 {
+    left: 16px;
+    width: 90%;
+    bottom: -310px;
+  }
+}
+@media (max-width: 624px) and (min-width: 529px) {
+  .container-3 .image-3 {
+    left: -40px;
+    width: 50%;
+    top: -560px;
+  }
+  .container-3 .image-2 {
+    left: 20px;
+    width: 90%;
+    bottom: -370px;
+  }
+}
+@media (max-width: 732px) and (min-width: 625px) {
+  .container-3 .image-3 {
+    left: -50px;
+    width: 50%;
+    top: -520px;
+  }
+  .container-3 .image-2 {
+    left: 100px;
+    width: 70%;
+    bottom: -400px;
+  }
+}
+@media (max-width: 768px) and (min-width: 733px) {
+  .container-3 .image-3 {
+    left: -20px;
+    width: 50%;
+    top: -510px;
+  }
+  .container-3 .image-2 {
+    width: 70%;
+    bottom: -425px;
+  }
+}
+@media (max-width: 864px) and (min-width: 769px) {
+  .container-3 .image-3 {
+    left: -50px;
+    width: 50%;
+    top: -860px;
+  }
+  .container-3 .image-2 {
+    left: 0px;
+    width: 50%;
+    bottom: 0;
+  }
+}
+@media (max-width: 992px) and (min-width: 865px) {
+  .container-3 .image-3 {
+    left: -60px;
+    width: 50%;
+    top: -790px;
+  }
+  .container-3 .image-2 {
+    left: 0px;
+    width: 50%;
+    bottom: -50px;
+  }
+}
+@media (max-width: 1020px) and (min-width: 993px) {
+  .container-3 .image-3 {
+    left: -15px;
+    top: -750px;
+    width: 50%;
+  }
+  .container-3 .image-2 {
+    left: 60px;
+    bottom: -130px;
+    width: 50%;
+  }
+}
+@media (max-width: 1200px) and (min-width: 1021px) {
+  .container-3 .image-3 {
+    left: -90px;
+    top: -750px;
+  }
+  .container-3 .image-2 {
+    left: 50px;
+    bottom: -180px;
+    width: 50%;
   }
 }
 @media (max-width: 1440px) and (min-width: 1201px) {}
